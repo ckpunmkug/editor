@@ -1,0 +1,61 @@
+<!doctype html
+	><html
+		><head
+			><title>index</title
+			><meta
+			  http-equiv = 'Content-Type'
+			  content = 'text/html; charset=utf-8'
+			><link
+			   href = '../default.css'
+			   rel = 'stylesheet'
+			><link
+			   href = 'text.css'
+			   rel = 'stylesheet'
+		></head
+		><script
+		  src='text.js'
+		></script
+		><script>
+var active = undefined;
+window.addEventListener
+	(
+	 'load'
+	,function( event )
+		{
+		text.element = document.getElementById( 'text' );
+		active = text;
+		text.element.focus(  );
+		}
+	);
+window.addEventListener
+	(
+	 'input'
+	,function( event )
+		{
+		if( active != undefined && typeof( active.input ) == 'function' )
+			return( active.input( event ) );
+		return( false );
+		}
+	);
+window.addEventListener
+	(
+	 'keydown'
+	,function( event )
+		{
+		if( active != undefined && typeof( active.keydown ) == 'function' )
+			return( active.keydown( event ) );
+		return( false );
+		}
+	);
+		</script
+		><body
+			><textarea
+			  id='text'
+			  name='text'
+			  class = 'text'
+			  cols = 80
+			  rows = 25
+			  wrap = 'off'
+			></textarea
+		></body
+	></html>

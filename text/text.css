@@ -1,0 +1,10 @@
+.text::-webkit-scrollbar { display: none; }
+.text
+	{
+	border: solid 0px #00F000;
+	resize: none;
+	background-image: url( 'background.php' );
+	background-position: left;
+	background-attachment: local;
+	background-repeat: repeat-y;
+	}
