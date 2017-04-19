@@ -3,24 +3,24 @@
 Чёрный фон, зелёные буквы, в полный экран, без скролбаров, автоотступ, граница, микроскрол, моношрифт. Исходник прост, структура атомарна, управление традиционно. Платформонезависимый, ориентрован на вэбразработку.<br>
 <br>
 Необходимые условия эксплуатации:<br>
-	http сервер с php<br>
-	chromium или его производная<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	http сервер с php<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	chromium или его производная<br>
 
 Установка<br>
-	Скачать и распаковать на сервере.<br>
-	Настроить серверу авторизацию.<br>
-	Загрузить editor.html <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Скачать и распаковать на сервере.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Настроить серверу авторизацию.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Загрузить editor.html <br>
 <br>
 Управление<br>
-	Control + O Открыть файл<br>
-	Control + S Сохранить файл<br>
-	Control + Shift + S Сохранить изменив имя<br>
-	Control+ G Перейти на строку с определённым номером<br>
-	Escape - Скрыть строку ввода<br>
-	Alt + Arrow( Left, Up, Right, Down ) - скролят текст не меняя положение курсора<br>
-	Enter - новая строка с тем же числом пробелов в начале как у предъидущей<br>
-	Shift + Enter - новая строка без пробелов в начале<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Control + O Открыть файл<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Control + S Сохранить файл<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Control + Shift + S Сохранить изменив имя<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Control+ G Перейти на строку с определённым номером<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Escape - Скрыть строку ввода<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Alt + Arrow( Left, Up, Right, Down ) - скролят текст не меняя положение курсора<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Enter - новая строка с тем же числом пробелов в начале как у предъидущей<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Shift + Enter - новая строка без пробелов в начале<br>
 <br>
 Настройки<br>
-	строка ввода: файл - editor.js, параметры - inputVerticalShift, inputSideSpace<br>
-	микроскрол: файл - text/text.js, параметры - widthScrollStep, heightScrollStep<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	строка ввода: файл - editor.js, параметры - inputVerticalShift, inputSideSpace<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	микроскрол: файл - text/text.js, параметры - widthScrollStep, heightScrollStep<br>
