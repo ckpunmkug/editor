@@ -27,6 +27,8 @@ window.addEventListener
 			}
 			
 		string.blur(  );
+		editor.filename = '       -=[ C To6o~Z Tak uHTepecHo ]=-';
+		editor.load(  );
 		}
 	);
 window.addEventListener
