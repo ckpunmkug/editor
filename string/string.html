@@ -1,0 +1,53 @@
+<!doctype html
+	><html
+		><head
+			><title>index</title
+			><meta
+			  http-equiv = 'Content-Type'
+			  content = 'text/html; charset=utf-8'
+			><link
+			   href = '../default.css'
+			   rel = 'stylesheet'
+			><link
+			   href = 'string.css'
+			   rel = 'stylesheet'
+		></head
+		><script
+		  src='string.js'
+		></script
+		><script>
+var active = undefined;
+window.addEventListener
+	(
+	 'load'
+	,function( event )
+		{
+		string.element = document.getElementById( 'string' );
+		string.action = function( value )
+			{
+			alert( value );
+			}
+		string.element.focus(  );
+		active = string;
+		}
+	);
+window.addEventListener
+	(
+	 'keydown'
+	,function( event )
+		{
+		if( active != undefined && typeof( active.keydown ) == 'function' )
+			return( active.keydown( event ) );
+		return( false );
+		}
+	);
+		</script
+		><body
+			><input
+			  id = 'string'
+			  name = 'string'
+			  class = 'string'
+			  type = 'text'
+			  size = 80
+		></body
+	></html>
